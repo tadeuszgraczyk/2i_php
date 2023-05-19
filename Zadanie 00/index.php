@@ -11,8 +11,10 @@
 <body>
   <h1>Witaj na mojej stronie</h1><hr>
   <?php
-    echo "<b>Witaj świecie</b>";
-    echo "<b>Witaj świecie</b>";
+  for($i=0; $i<100; $i++) {
+      echo "<b>Witaj świecie</b>";
+      echo "<b>Witaj świecie</b>";
+  }
   ?>
 </body>
 </html>
